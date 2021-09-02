@@ -46,4 +46,63 @@ echo "o valor liquido recebido foi $liquido reais.";
 
 echo "<br>";
 
+$resultado = 10 + 3/2 - 5*3**2;
+
+echo $resultado;
+
+echo "<br>";
+
+$f = 1;
+$g = 1;
+$h = 0;
+
+if ($f == 1 && $g == 1 && $h == 1){
+
+    echo "verdade E";
+
+}
+else{
+
+    echo "mentira E";
+
+}
+
+echo "<br>";
+
+if ($f == 1 || $g == 1 || $h == 1){
+
+    echo "verdade OU";
+
+}
+else{
+
+    echo "mentira OU";
+
+}
+
+function somar($a, $b){
+
+    return $a + $b;
+
+}
+
+function sub($a, $b){
+
+    return $a - $b;
+
+}
+
+echo somar(10,34);
+
+echo "<br>";
+
+$resultado2 = sub(10, 45);
+echo $resultado2;
+
+echo "<br>";
+
+echo somar(190, 34);
+
+echo "<br>";
+
 ?>
