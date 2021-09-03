@@ -105,4 +105,43 @@ echo somar(190, 34);
 
 echo "<br>";
 
+$nome = "joão victor";
+
+echo "$nome <br>";
+
+echo strtoupper($nome);
+
+echo "<br>";
+
+echo strtolower($nome);
+
+echo "<br>";
+
+echo ucwords($nome);
+
+echo "<br>";
+
+echo ucfirst($nome);
+
+echo str_replace("o","0",$nome);
+
+echo "<br>";
+
+$frase = "eu prefiro pão com macarrao do que lasanha";
+$pos = strrpos($frase, "pão");
+var_dump($pos);
+echo "<br>";
+
+$texto1 = substr($frase, 0, $pos);
+
+echo "$texto1 <br>";
+echo '$texto1 <br>';
+
+$texto2 = substr($frase, $pos);
+echo "$texto2 <br>";
+
+$nome = "pão";
+echo strlen($nome);
+echo "<br>";
+
 ?>
